@@ -1,10 +1,9 @@
 # TrabalhoGrafos
 
-A biblioteca de grafos a ser desenvolvida deve ser capaz de representar e manipular grafos orientados.
 
-## Implementação da representação de grafos: Listas de adjacência
 
-Cada vértice do grafo deve armazenar um valor de tipo genérico. 
+## Implementação da representação de grafos: 
+
 
 ## Funcionalidades 
 
@@ -18,10 +17,6 @@ Cada vértice do grafo deve armazenar um valor de tipo genérico.
 
 + Calcular o caminho mínimo entre dois vértices: receba dois objetos do tipo T, e caso existam vértices com os dois valores, calcule a menor distância entre eles, imprimindo o caminho percorrido e a distância total obtida.
 
-Para realizar a ordenação topológica desse grafo, um método eficiente é 
-empregar uma pesquisa em profundidade (DFS). O algoritmo de ordenação topológica consiste em inserir os vértices no início de uma lista à medida que são concluídos.
-Isso resulta em uma ordenação linear dos vértices, onde, se há uma aresta do vértice v1 para o vértice v2, v1 aparecerá antes de v2 na ordenação. Esta técnica é particularmente útil em cenários nos quais é 
-vital estabelecer uma sequência ordenada de eventos.
+
 
 ## Link para o relatório
-[Implementação de Grafos](https://docs.google.com/document/d/1zxiVaxygUfCQvWpLY5ubUX-0PmQnUbE1/edit?usp=sharing&ouid=110692527634638338468&rtpof=true&sd=true)
